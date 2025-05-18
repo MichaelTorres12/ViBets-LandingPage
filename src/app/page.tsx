@@ -29,21 +29,9 @@ export default function Home() {
 
         {/* Botón */}
         <div className="flex space-x-4 mb-12 z-20">
-          <a 
-            href="https://apps.apple.com/search/vibets" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-[#151f2b] text-white font-semibold py-3 px-6 rounded-3xl hover:shadow-lg transition flex flex-col items-start"
-          >
-            <span className="text-md text-white">Download on the</span>
-            <div className="flex items-center mt-0 text-2xl">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/App_Store_%28iOS%29.svg/512px-App_Store_%28iOS%29.svg.png" alt="App Store" className="w-6 h-6 mr-2" />
-              <span className="font-medium">App Store</span>
-            </div>
-          </a>
 
           <a 
-            href="https://play.google.com/store/search?q=vibets&c=apps" 
+            href="https://play.google.com/store/apps/details?id=com.vibetsapp.vibets&hl=es_SV" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-white text-green-600 font-semibold py-3 px-6 rounded-3xl hover:shadow-lg transition flex flex-col items-start"
